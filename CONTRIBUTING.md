@@ -67,3 +67,5 @@ If you encounter any issues, have suggestions, or want to discuss changes:
 By contributing, you agree that your contributions will be licensed under the MIT License, as specified in the LICENSE file.
 
 Thank you for helping to improve the Learn Rust repository!
+
+<p align="center"> <sub>© 2025 Learn Rust by <a href="https://github.com/dzikrisyairozi">Dzikri Syairozi</a>. Licensed under the <a href="./LICENSE">MIT License</a>.</sub> </p>
