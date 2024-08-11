@@ -34,3 +34,5 @@ This repository is divided into several chapters, each focusing on a specific ar
 Start with Chapter 01 and proceed sequentially. Each chapter contains detailed explanations, analogies, examples, and exercises to help you fully grasp Rust concepts.
 
 Happy learning!
+
+<p align="center"> <sub>© 2025 Learn Rust by <a href="https://github.com/dzikrisyairozi">Dzikri Syairozi</a>. Licensed under the <a href="./LICENSE">MIT License</a>.</sub> </p>
