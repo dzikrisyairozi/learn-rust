@@ -66,31 +66,31 @@ Here’s how our guide will help you master Rust step by step:
 
 ### 1. Basics (Chapter 2)
 
-Simple Rust programs, basic syntax, variables, and control flow.
+- Simple Rust programs, basic syntax, variables, and control flow.
 
 ### 2. Ownership & Borrowing (Chapter 3)
 
-Deep dive into Rust’s most defining feature, learning how memory safety is guaranteed.
+- Deep dive into Rust’s most defining feature, learning how memory safety is guaranteed.
 
 ### 3. Functions & Control Flow (Chapter 4)
 
-Structuring your code with functions, advanced control statements, and using Rust's `match`.
+-  Structuring your code with functions, advanced control statements, and using Rust's `match`.
 
 ### 4. Compound Types (Chapter 5)
 
-Tuples, arrays, structs, and enums for modeling complex data.
+- Tuples, arrays, structs, and enums for modeling complex data.
 
 ### 5. Collections & Error Handling (Chapter 6)
 
-Using vectors, strings, and hash maps, plus the `Option` and `Result` types for robust error management.
+- Using vectors, strings, and hash maps, plus the `Option` and `Result` types for robust error management.
 
 ### 6. Modules & Crates (Chapter 7)
 
-Organizing code and understanding the Cargo ecosystem for managing dependencies.
+- Organizing code and understanding the Cargo ecosystem for managing dependencies.
 
 ### 7. Advanced Topics (Chapter 8)
 
-Generics, traits, concurrency, smart pointers, and more, to empower you with the full Rust toolbox.
+- Generics, traits, concurrency, smart pointers, and more, to empower you with the full Rust toolbox.
 
 ## 5. Conclusion
 Rust is a language that balances **performance**, **safety**, and **productivity**. Throughout this repository, you’ll learn step by step, starting with simple “Hello, Rust!” examples and progressing toward more sophisticated features like concurrency and advanced type system capabilities.
