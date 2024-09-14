@@ -1,4 +1,4 @@
-# Pull Request Template
+# Pull Request [#number](https://github.com/dzikrisyairozi/learn-rust/pulls/[number])
 
 ## Description
 
