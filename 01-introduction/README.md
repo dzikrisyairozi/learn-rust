@@ -98,7 +98,7 @@ Rust is a language that balances **performance**, **safety**, and **productivity
 By the end of this journey, you’ll have a solid grasp of Rust’s core principles and feel confident building your own Rust applications. Let’s get started with **Chapter 2: Basics**, where you’ll write your very first Rust program and explore the essentials of the language.
 
 ## What’s Next?
-Proceed to [Chapter 2: Basics](../02-Basics/README.md) to begin coding in Rust.
+Proceed to [Chapter 2: Basics](../02-basics/README.md) to begin coding in Rust.
 Enjoy the journey, and have fun exploring the world of Rust!
 
 <p align="center"> <sub>© 2025 Learn Rust by <a href="https://github.com/dzikrisyairozi">Dzikri Syairozi</a>. Licensed under the <a href="../LICENSE">MIT License</a>.</sub> </p>
