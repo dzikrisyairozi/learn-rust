@@ -214,7 +214,8 @@ In this chapter, you learned how to:
 
 With these essentials, you’re well on your way to writing fun and safe Rust code!
 
-**Next up**: [Chapter 3: Ownership and Borrowing](../03-ownership-and-borrowing/README.md), where we’ll explore Rust’s most magical feature—the ownership system that makes memory safety a breeze.
+## **Next up**: [Chapter 3: Ownership and Borrowing](../03-ownership-and-borrowing/README.md)
+Where we’ll explore Rust’s most magical feature—the ownership system that makes memory safety a breeze.
 
 Extra Resources (Optional)
 - [Official Rust Book - Getting Started](https://lborb.github.io/book/official.html)
