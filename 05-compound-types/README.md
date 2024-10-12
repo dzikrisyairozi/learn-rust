@@ -61,8 +61,8 @@ struct User {
 
 fn main() {
     let user1 = User {
-        username: String::from("rustacean123"),
-        email: String::from("rustacean@example.com"),
+        username: String::from("dzikrisyairozi"),
+        email: String::from("dzikrisyairozi@gmail.com"),
         active: true,
     };
 
