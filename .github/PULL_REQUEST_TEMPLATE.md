@@ -1,4 +1,4 @@
-# Pull Request [#number](https://github.com/dzikrisyairozi/learn-rust/pulls/[number])
+# Pull Request -- Issue [#number](https://github.com/dzikrisyairozi/learn-rust/issues/[number])
 
 ## Description
 
