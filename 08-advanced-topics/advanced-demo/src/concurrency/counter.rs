@@ -26,3 +26,31 @@ impl ThreadSafeCounter {
     }
 }
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::thread;
+
+    #[test]
+    fn test_thread_safe_counter() {
+        let counter = ThreadSafeCounter::new();
+        let mut handles = vec![];
+
+        // Spawn 5 threads that each increment the counter
+        for _ in 0..5 {
+            let counter_clone = counter.get_count_arc();
+            let handle = thread::spawn(move || {
+                let mut count = counter_clone.lock().unwrap();
+                *count += 1;
+            });
+            handles.push(handle);
+        }
+
+        // Wait for all threads to complete
+        for handle in handles {
+            handle.join().unwrap();
+        }
+
+        assert_eq!(counter.get_count(), 5);
+    }
+}

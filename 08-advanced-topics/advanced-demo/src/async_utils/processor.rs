@@ -9,3 +9,18 @@ pub async fn process_data_async<T, P: DataProcessor<T>>(processor: &P, data: T) 
     processor.process(data)
 }
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::processors::NumberProcessor;
+
+    #[tokio::test]
+    async fn test_async_processing() {
+        let processor = NumberProcessor {
+            multiplier: 2,
+            name: String::from("Test"),
+        };
+        let result = process_data_async(&processor, 5).await;
+        assert_eq!(result, 10);
+    }
+}
