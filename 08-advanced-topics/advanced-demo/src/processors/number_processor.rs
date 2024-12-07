@@ -18,3 +18,17 @@ impl<T: Display + Copy + std::ops::Mul<Output = T>> DataProcessor<T> for NumberP
     }
 }
 
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_number_processor() {
+        let processor = NumberProcessor {
+            multiplier: 2,
+            name: String::from("Test"),
+        };
+        assert_eq!(processor.process(5), 10);
+        assert_eq!(processor.describe(), "Test Processor (multiplier: 2)");
+    }
+}
